@@ -140,8 +140,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>Ayurvedic Meal Planner</h1>
-        <p class="subtitle">Sattvic meal suggestions for balanced living</p>
+        <h1>Meal Inspiration ✨</h1>
+        <p class="subtitle">Good nommies for every day</p>
 
         <button onclick="getRandomMeal()">Get Random Day's Meals</button>
 
@@ -192,7 +192,6 @@
             const randomDay = mealData.days[randomIndex];
 
             // Update the display
-            document.getElementById('dayNumber').textContent = `Day ${randomDay.day}`;
             document.getElementById('breakfast').textContent = randomDay.breakfast;
             document.getElementById('lunch').textContent = randomDay.lunch;
             document.getElementById('dinner').textContent = randomDay.dinner;
