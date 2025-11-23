@@ -1,0 +1,244 @@
+{
+  "days": [
+    {
+      "day": 1,
+      "breakfast": "Oat and millet porridge with cinnamon, cardamom and raisins",
+      "lunch": "Rice with red lentils, roasted carrots and sauteed kale with cumin, coriander, turmeric",
+      "dinner": "Barley with black beans, roasted sweet potato and steamed broccoli with ginger, mustard seeds"
+    },
+    {
+      "day": 2,
+      "breakfast": "Spelt and quinoa porridge with vanilla, dates and ghee",
+      "lunch": "Wheat noodles with tempeh, zucchini and chard with sesame oil, ginger, basil",
+      "dinner": "Millet with adzuki beans, roasted parsnip and sauteed spinach with fennel seeds, turmeric"
+    },
+    {
+      "day": 3,
+      "breakfast": "Sauteed apples with ghee, cinnamon, nutmeg and cardamom",
+      "lunch": "Rice with split mung beans, roasted pumpkin and kale with coriander, cumin, asafoetida",
+      "dinner": "Spelt pasta with tofu, steamed cauliflower and roasted beets with olive oil, thyme, rosemary"
+    },
+    {
+      "day": 4,
+      "breakfast": "Barley and oat porridge with ginger, cinnamon and raisins",
+      "lunch": "Quinoa with du puy lentils, roasted sweet potato and brussels sprouts with mustard seeds, turmeric, bay leaf",
+      "dinner": "Rice with black beans, sauteed fennel and cabbage with coriander seeds, cumin"
+    },
+    {
+      "day": 5,
+      "breakfast": "Einkorn and rice porridge with cardamom, vanilla and dates",
+      "lunch": "Barley with red lentils, roasted carrots and broccoli with ginger, turmeric, coriander",
+      "dinner": "Wheat noodles with eggs, roasted squash and sauteed greens with sesame oil, basil, black pepper"
+    },
+    {
+      "day": 6,
+      "breakfast": "Sauteed pears with ghee, cloves, cinnamon and walnuts",
+      "lunch": "Millet with brown lentils, roasted parsnip and kale with cumin, fenugreek, asafoetida",
+      "dinner": "Rice with tempeh, steamed zucchini and chard with coconut oil, ginger, turmeric"
+    },
+    {
+      "day": 7,
+      "breakfast": "Oat and spelt porridge with nutmeg, cinnamon and coconut",
+      "lunch": "Quinoa with split mung beans, roasted sweet potato and cauliflower with coriander, mustard seeds, curry leaf",
+      "dinner": "Barley with adzuki beans, roasted beets and sauteed spinach with olive oil, thyme, garlic-free herbs"
+    },
+    {
+      "day": 8,
+      "breakfast": "Rice and millet porridge with cardamom, ginger and raisins",
+      "lunch": "Spelt pasta with tofu, roasted pumpkin and brussels sprouts with rosemary, bay leaf, black pepper",
+      "dinner": "Rice with red lentils, sauteed fennel and kale with cumin, coriander, turmeric"
+    },
+    {
+      "day": 9,
+      "breakfast": "Sauteed bananas with ghee, cardamom, cinnamon and cashews",
+      "lunch": "Barley with black beans, roasted carrots and cabbage with ginger, mustard seeds, fenugreek",
+      "dinner": "Wheat noodles with tempeh, steamed broccoli and roasted sweet potato with sesame oil, basil, mint"
+    },
+    {
+      "day": 10,
+      "breakfast": "Quinoa and oat porridge with vanilla, dates and almonds",
+      "lunch": "Rice with du puy lentils, roasted squash and sauteed greens with turmeric, coriander, asafoetida",
+      "dinner": "Millet with eggs, roasted parsnip and cauliflower with coconut oil, cumin, black pepper"
+    },
+    {
+      "day": 11,
+      "breakfast": "Einkorn and barley porridge with cinnamon, cloves and raisins",
+      "lunch": "Quinoa with brown lentils, roasted beets and kale with ginger, fennel seeds, turmeric",
+      "dinner": "Rice with tofu, sauteed zucchini and chard with olive oil, oregano, thyme"
+    },
+    {
+      "day": 12,
+      "breakfast": "Sauteed apricots with ghee, cardamom, nutmeg and pistachios",
+      "lunch": "Spelt pasta with split mung beans, roasted sweet potato and brussels sprouts with coriander, cumin, bay leaf",
+      "dinner": "Barley with tempeh, steamed fennel and spinach with sesame oil, ginger, mustard seeds"
+    },
+    {
+      "day": 13,
+      "breakfast": "Oat and rice porridge with ginger, cinnamon and coconut",
+      "lunch": "Wheat noodles with adzuki beans, roasted carrots and broccoli with turmeric, coriander, basil",
+      "dinner": "Millet with black beans, roasted pumpkin and cabbage with cumin, fenugreek, asafoetida"
+    },
+    {
+      "day": 14,
+      "breakfast": "Spelt and millet porridge with vanilla, cardamom and dates",
+      "lunch": "Rice with eggs, roasted parsnip and kale with coconut oil, black pepper, thyme",
+      "dinner": "Quinoa with red lentils, sauteed squash and chard with ginger, coriander, turmeric"
+    },
+    {
+      "day": 15,
+      "breakfast": "Sauteed plums with ghee, cinnamon, cloves and hazelnuts",
+      "lunch": "Barley with tofu, roasted sweet potato and cauliflower with mustard seeds, cumin, curry leaf",
+      "dinner": "Rice with du puy lentils, steamed zucchini and sauteed greens with olive oil, rosemary, oregano"
+    },
+    {
+      "day": 16,
+      "breakfast": "Quinoa and oat porridge with nutmeg, cardamom and raisins",
+      "lunch": "Spelt pasta with brown lentils, roasted beets and brussels sprouts with ginger, turmeric, bay leaf",
+      "dinner": "Wheat noodles with tempeh, sauteed fennel and spinach with sesame oil, basil, mint"
+    },
+    {
+      "day": 17,
+      "breakfast": "Einkorn and rice porridge with cinnamon, vanilla and coconut",
+      "lunch": "Millet with split mung beans, roasted carrots and broccoli with coriander, cumin, asafoetida",
+      "dinner": "Rice with adzuki beans, roasted pumpkin and kale with turmeric, ginger, fenugreek"
+    },
+    {
+      "day": 18,
+      "breakfast": "Sauteed peaches with ghee, cardamom, cinnamon and walnuts",
+      "lunch": "Barley with black beans, roasted parsnip and cabbage with mustard seeds, cumin, black pepper",
+      "dinner": "Quinoa with eggs, steamed squash and chard with coconut oil, thyme, rosemary"
+    },
+    {
+      "day": 19,
+      "breakfast": "Oat and spelt porridge with ginger, nutmeg and dates",
+      "lunch": "Rice with tofu, roasted sweet potato and kale with turmeric, coriander, basil",
+      "dinner": "Wheat noodles with red lentils, sauteed zucchini and cauliflower with sesame oil, ginger, mint"
+    },
+    {
+      "day": 20,
+      "breakfast": "Millet and barley porridge with cardamom, cinnamon and raisins",
+      "lunch": "Spelt pasta with tempeh, roasted beets and brussels sprouts with olive oil, oregano, bay leaf",
+      "dinner": "Rice with du puy lentils, steamed fennel and sauteed greens with cumin, coriander, turmeric"
+    },
+    {
+      "day": 21,
+      "breakfast": "Sauteed berries with ghee, vanilla, cardamom and cashews",
+      "lunch": "Quinoa with brown lentils, roasted carrots and broccoli with ginger, mustard seeds, fenugreek",
+      "dinner": "Barley with split mung beans, roasted pumpkin and spinach with turmeric, coriander, asafoetida"
+    },
+    {
+      "day": 22,
+      "breakfast": "Rice and oat porridge with cinnamon, cloves and coconut",
+      "lunch": "Millet with adzuki beans, roasted parsnip and kale with cumin, turmeric, curry leaf",
+      "dinner": "Wheat noodles with tofu, sauteed squash and chard with sesame oil, basil, ginger"
+    },
+    {
+      "day": 23,
+      "breakfast": "Einkorn and quinoa porridge with vanilla, nutmeg and dates",
+      "lunch": "Rice with black beans, roasted sweet potato and cabbage with coriander, cumin, black pepper",
+      "dinner": "Spelt pasta with eggs, steamed zucchini and brussels sprouts with olive oil, thyme, rosemary"
+    },
+    {
+      "day": 24,
+      "breakfast": "Sauteed figs with ghee, cinnamon, cardamom and almonds",
+      "lunch": "Barley with tempeh, roasted beets and cauliflower with ginger, turmeric, bay leaf",
+      "dinner": "Quinoa with red lentils, sauteed fennel and sauteed greens with coconut oil, coriander, mustard seeds"
+    },
+    {
+      "day": 25,
+      "breakfast": "Spelt and oat porridge with ginger, cardamom and raisins",
+      "lunch": "Rice with du puy lentils, roasted carrots and kale with turmeric, cumin, asafoetida",
+      "dinner": "Wheat noodles with split mung beans, roasted pumpkin and broccoli with sesame oil, basil, mint"
+    },
+    {
+      "day": 26,
+      "breakfast": "Millet and rice porridge with cinnamon, vanilla and coconut",
+      "lunch": "Barley with tofu, roasted parsnip and chard with mustard seeds, coriander, fenugreek",
+      "dinner": "Quinoa with brown lentils, steamed squash and spinach with olive oil, oregano, thyme"
+    },
+    {
+      "day": 27,
+      "breakfast": "Sauteed mangoes with ghee, cardamom, nutmeg and pistachios",
+      "lunch": "Rice with adzuki beans, roasted sweet potato and brussels sprouts with ginger, turmeric, cumin",
+      "dinner": "Spelt pasta with tempeh, sauteed zucchini and cabbage with coconut oil, basil, black pepper"
+    },
+    {
+      "day": 28,
+      "breakfast": "Oat and barley porridge with cloves, cinnamon and dates",
+      "lunch": "Millet with black beans, roasted beets and kale with coriander, cumin, curry leaf",
+      "dinner": "Rice with eggs, roasted fennel and cauliflower with sesame oil, ginger, turmeric"
+    },
+    {
+      "day": 29,
+      "breakfast": "Quinoa and einkorn porridge with vanilla, cardamom and raisins",
+      "lunch": "Wheat noodles with red lentils, roasted carrots and sauteed greens with turmeric, basil, mint",
+      "dinner": "Barley with tofu, steamed pumpkin and chard with olive oil, rosemary, bay leaf"
+    },
+    {
+      "day": 30,
+      "breakfast": "Sauteed pineapple with ghee, cinnamon, ginger and coconut",
+      "lunch": "Rice with du puy lentils, roasted parsnip and broccoli with cumin, coriander, asafoetida",
+      "dinner": "Quinoa with split mung beans, roasted squash and spinach with mustard seeds, turmeric, fenugreek"
+    },
+    {
+      "day": 31,
+      "breakfast": "Spelt and rice porridge with nutmeg, cardamom and dates",
+      "lunch": "Barley with tempeh, roasted sweet potato and kale with ginger, turmeric, black pepper",
+      "dinner": "Wheat noodles with brown lentils, sauteed zucchini and brussels sprouts with sesame oil, basil, oregano"
+    },
+    {
+      "day": 32,
+      "breakfast": "Oat and millet porridge with cinnamon, vanilla and coconut",
+      "lunch": "Rice with adzuki beans, roasted beets and cabbage with coriander, cumin, bay leaf",
+      "dinner": "Spelt pasta with tofu, steamed fennel and chard with olive oil, thyme, rosemary"
+    },
+    {
+      "day": 33,
+      "breakfast": "Sauteed cherries with ghee, cardamom, cloves and hazelnuts",
+      "lunch": "Millet with black beans, roasted carrots and cauliflower with turmeric, ginger, mustard seeds",
+      "dinner": "Quinoa with eggs, roasted pumpkin and sauteed greens with coconut oil, coriander, cumin"
+    },
+    {
+      "day": 34,
+      "breakfast": "Einkorn and oat porridge with ginger, cinnamon and raisins",
+      "lunch": "Rice with red lentils, roasted parsnip and kale with cumin, turmeric, asafoetida",
+      "dinner": "Barley with tempeh, sauteed squash and broccoli with sesame oil, basil, mint"
+    },
+    {
+      "day": 35,
+      "breakfast": "Rice and quinoa porridge with vanilla, nutmeg and dates",
+      "lunch": "Wheat noodles with du puy lentils, roasted sweet potato and chard with ginger, coriander, fenugreek",
+      "dinner": "Millet with split mung beans, steamed zucchini and spinach with olive oil, oregano, thyme"
+    },
+    {
+      "day": 36,
+      "breakfast": "Sauteed papaya with ghee, cinnamon, cardamom and walnuts",
+      "lunch": "Barley with tofu, roasted beets and brussels sprouts with mustard seeds, turmeric, bay leaf",
+      "dinner": "Rice with brown lentils, sauteed fennel and cabbage with cumin, coriander, black pepper"
+    },
+    {
+      "day": 37,
+      "breakfast": "Spelt and millet porridge with cardamom, cloves and coconut",
+      "lunch": "Quinoa with adzuki beans, roasted carrots and kale with ginger, turmeric, curry leaf",
+      "dinner": "Spelt pasta with eggs, roasted pumpkin and cauliflower with coconut oil, basil, rosemary"
+    },
+    {
+      "day": 38,
+      "breakfast": "Oat and barley porridge with cinnamon, vanilla and raisins",
+      "lunch": "Rice with black beans, roasted parsnip and sauteed greens with coriander, cumin, asafoetida",
+      "dinner": "Wheat noodles with tempeh, steamed squash and chard with sesame oil, ginger, mint"
+    },
+    {
+      "day": 39,
+      "breakfast": "Sauteed nectarines with ghee, nutmeg, cardamom and almonds",
+      "lunch": "Millet with red lentils, roasted sweet potato and broccoli with turmeric, mustard seeds, fenugreek",
+      "dinner": "Barley with tofu, sauteed zucchini and spinach with olive oil, oregano, thyme"
+    },
+    {
+      "day": 40,
+      "breakfast": "Einkorn and rice porridge with ginger, cinnamon and dates",
+      "lunch": "Quinoa with du puy lentils, roasted beets and brussels sprouts with coriander, cumin, bay leaf",
+      "dinner": "Rice with split mung beans, roasted fennel and kale with turmeric, ginger, basil"
+    }
+  ]
+}

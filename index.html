@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayurvedic Meal Planner</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+            width: 100%;
+            padding: 40px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2em;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 0.95em;
+        }
+
+        button {
+            width: 100%;
+            padding: 15px 30px;
+            font-size: 1.1em;
+            font-weight: 600;
+            color: white;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-bottom: 30px;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        .meal-plan {
+            display: none;
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        .meal-plan.show {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .day-number {
+            text-align: center;
+            font-size: 1.2em;
+            color: #764ba2;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .meal {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+        }
+
+        .meal-title {
+            font-weight: 600;
+            color: #667eea;
+            font-size: 1.1em;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .meal-description {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .loading {
+            text-align: center;
+            color: #666;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px;
+            }
+
+            h1 {
+                font-size: 1.5em;
+            }
+
+            button {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ayurvedic Meal Planner</h1>
+        <p class="subtitle">Sattvic meal suggestions for balanced living</p>
+
+        <button onclick="getRandomMeal()">Get Random Day's Meals</button>
+
+        <div id="loading" class="loading" style="display: none;">Loading meal plans...</div>
+
+        <div id="mealPlan" class="meal-plan">
+            <div class="day-number" id="dayNumber"></div>
+
+            <div class="meal">
+                <div class="meal-title">Breakfast</div>
+                <div class="meal-description" id="breakfast"></div>
+            </div>
+
+            <div class="meal">
+                <div class="meal-title">Lunch</div>
+                <div class="meal-description" id="lunch"></div>
+            </div>
+
+            <div class="meal">
+                <div class="meal-title">Dinner</div>
+                <div class="meal-description" id="dinner"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let mealData = null;
+
+        // Load the meal plans when the page loads
+        async function loadMealPlans() {
+            try {
+                const response = await fetch('meal-plans.json');
+                mealData = await response.json();
+            } catch (error) {
+                console.error('Error loading meal plans:', error);
+                alert('Error loading meal plans. Please make sure meal-plans.json is in the same directory.');
+            }
+        }
+
+        function getRandomMeal() {
+            if (!mealData) {
+                document.getElementById('loading').style.display = 'block';
+                return;
+            }
+
+            // Get random day from the available days
+            const randomIndex = Math.floor(Math.random() * mealData.days.length);
+            const randomDay = mealData.days[randomIndex];
+
+            // Update the display
+            document.getElementById('dayNumber').textContent = `Day ${randomDay.day}`;
+            document.getElementById('breakfast').textContent = randomDay.breakfast;
+            document.getElementById('lunch').textContent = randomDay.lunch;
+            document.getElementById('dinner').textContent = randomDay.dinner;
+
+            // Show the meal plan with animation
+            const mealPlan = document.getElementById('mealPlan');
+            mealPlan.classList.remove('show');
+            // Force reflow to restart animation
+            void mealPlan.offsetWidth;
+            mealPlan.classList.add('show');
+        }
+
+        // Load meal plans when page loads
+        loadMealPlans();
+    </script>
+</body>
+</html>
